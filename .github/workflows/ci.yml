@@ -14,16 +14,6 @@ jobs:
       matrix:
         include:
           - python-version: "3.8"
-            django-version: Django==3.0
-            taggit-version: django-taggit==2.1.0
-            restframework-version: djangorestframework==3.13.0
-
-          - python-version: "3.8"
-            django-version: Django==3.1
-            taggit-version: django-taggit==2.1.0
-            restframework-version: djangorestframework==3.13.0
-
-          - python-version: "3.8"
             django-version: Django==3.2
             taggit-version: django-taggit
             restframework-version: djangorestframework
