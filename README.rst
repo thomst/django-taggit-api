@@ -51,7 +51,7 @@ Install from pypi.org::
 
 Setup
 =====
-Add more_admin_filters to your installed apps::
+Add :code:`taggit_api` to your installed apps::
 
     INSTALLED_APPS = [
         'taggit_api',
@@ -62,5 +62,5 @@ Extend your :code:`url_patterns` in urls.py::
 
     urlpatterns = [
         ...
-        url(r'^', include('taggit_api.urls')),
+        path('api/', include('taggit_api.urls')),
     ]
