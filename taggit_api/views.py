@@ -10,7 +10,6 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 from taggit.models import Tag
 from taggit.models import TaggedItem
-from taggit.managers import TaggableManager
 
 
 class CanAddTag(BasePermission):
